@@ -19,6 +19,10 @@ https://github.com/dadaiwei/fe-deploy-cli/blob/master/README.md
 ## 前提条件
 能通过ssh连上服务器即可
 
+## 兼容cjs和esm来进行二次优化
+判断项目当中的type如果是esm的则生成的文件后缀为cjs
+没有type就是commonjs的规范直接使用js即可
+
 ## 安装
 全局安装fe-deploy-cli
 ```
