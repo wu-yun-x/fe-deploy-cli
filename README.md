@@ -1,6 +1,11 @@
-# fe-deploy-cli
+# fe-deploy-cli-m
 前端轻量化部署脚手架，支持测试、线上等多环境部署，支持环境配置扩展，配置好后仅需一条命令即可完成整个部署流程。
+根据fe-deploy-cli这个包进行二次优化，以此来进行适配现在项目基本上都是"type": "module",的问题。
 
+这个是我本地fork博主的地址
+https://github.com/wu-yun-x/fe-deploy-cli
+
+下面是原来博主的地址。
 ## git地址：
 https://github.com/dadaiwei/fe-deploy-cli
 
@@ -26,7 +31,7 @@ https://github.com/dadaiwei/fe-deploy-cli/blob/master/README.md
 ## 安装
 全局安装fe-deploy-cli
 ```
-npm i fe-deploy-cli -g
+npm i fe-deploy-cli-m -g
 ```
 查看版本，表示安装成功。
 

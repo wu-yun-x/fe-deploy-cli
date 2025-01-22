@@ -1,6 +1,6 @@
 {
-    "name": "fe-deploy-cli",
-    "version": "1.0.2",
+    "name": "fe-deploy-cli-m",
+    "version": "1.0.3",
     "description": "A cli tool for web deploy.",
     "bin": {
         "deploy": "./bin/index.js"
@@ -10,7 +10,7 @@
         "node-ssh",
         "deploy"
     ],
-    "author": "dadaiwei",
+    "author": "hevijxuf",
     "license": "ISC",
     "engines": {
         "node": ">=9.0.0"
